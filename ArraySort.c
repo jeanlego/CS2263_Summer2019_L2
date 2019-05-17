@@ -91,7 +91,6 @@ int main(void)
         }
         else
         {
-            scanf("%d", &num);
             a[i] = num;
         }
     }
