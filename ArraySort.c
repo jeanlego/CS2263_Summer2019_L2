@@ -38,7 +38,7 @@ void swapAdjacent(int *a, int index)
 
 int compareAdjacent(int *a, int index)
 {
-    return (*a + index) - (*a + index + 1);
+    return *(a + index) - *(a + index + 1);
 }
 
 /**
